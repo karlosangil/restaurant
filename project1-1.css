@@ -1,0 +1,294 @@
+@media screen and (max-width: 768px){
+    .header{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    nav{
+        margin-top: 50px;
+    }
+    .navigation,div a {
+        font-size: 22px;
+    }
+
+    /* banner1 */
+
+    .banner1{
+        flex-direction: column;
+    }
+    .banner1-content{
+        width: 90%;
+    }
+    .banner1 p{
+        font-size: 25px;
+    }
+    .banner1 img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 70vh;
+    }
+    .btn-explore,.btn-see-menu{
+        font-size: 20px;
+        width: 40%;
+    }
+
+    /* Reservations */
+    .book{
+        font-size: 40px;
+        margin-top: 200px;
+    }
+    .info{
+        width:70%;
+        height: 60vh;
+        flex-direction: column;
+    }
+    .info p{
+        font-size: 30px;
+    }
+    .info input{
+        width: 360px;
+        height: 60px;
+    }
+    .info div button{
+        width: 300px;
+        height: 60px;
+        font-size: 20px;
+        letter-spacing: 2px;
+        font-weight: 700;
+    }
+    .info input::placeholder{
+        font-size: 30px;
+    }
+    .info input{
+        font-size: 30px;
+    }
+    .info div p strong{
+        display: none;
+    }
+    /* categories */
+    .categories{
+        margin-top: 450px;
+    }
+    .categories h3{
+        font-size: 40px;
+    }
+    .foods{
+        gap: 50px;
+        flex-direction: column;
+    }
+    .meat,.fish,.drinks{
+        height: 50vh;
+        width: 500px;
+    }
+    .meat h2,.fish h2,.drinks h2{
+        font-size: 40px;
+    }
+    .meat p,.fish p,.drinks p{
+        margin-top: -10px;
+        font-size: 20px;
+    }
+    
+
+
+    /* banner2 COVID */
+
+    .banner2{
+        height: 100vh;
+        margin-top: 880px;
+    }
+    .row1{
+        margin-top: -400px;
+        height: 50vh;
+        flex-direction: column;
+    }
+    .covid{
+        font-size: 30px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .row2{
+        height: 50vh;
+        width: 100%;
+        margin-top: 500px;
+    }
+    .row2 img{
+        height: 40vh;
+    }
+
+    /* banner3 */
+    .banner3{
+        width: 90%;
+        flex-direction: column;
+        text-align: center;
+    }
+    .banner3-content{
+        width: 90%;
+    }
+    .banner3 p{
+        text-align: center;
+        width: 100%;
+        font-size: 30px;
+    }
+    .banner3-img{
+        margin: 0;
+    }
+    .banner3-img img{
+        height: 80vh;
+        width: 100%;
+    }
+    .banner3 button{
+        font-size: 20px;
+        height: 80px;
+        width: 260px;
+    }
+    /* banner4 */
+    .banner4{
+        height: 100vh;
+        text-align: center;
+        margin-top: 750px;
+        flex-direction: column;
+    }
+    .banner4-content{
+        margin-top: -300px;
+        width: 90%;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .banner4-img{
+        margin-top: -400px;
+        height: 90vh;
+        width: 100%;
+    }
+    .banner4-content h3{
+        font-size: 40px;
+    }
+
+    .banner4-content p{
+        width: 100%;
+        font-size: 30px;
+    }
+    .banner4 button{
+        font-size: 20px;
+        height: 80px;
+        width: 260px;
+    }
+
+
+
+    /* banner5 */
+    .banner5{
+        height: 100vh;
+    }
+    .main-banner5{
+        margin-top: 600px;
+        height: 160vh;
+        flex-direction: column;
+    }
+    .banner5-content p{
+        width: 70%;
+        font-size: 30px;
+    }
+    .banner5-content h3{
+        margin-top: -30px;
+        font-size: 40px;
+    }
+    .banner5-content h1{
+        margin-top: -15px;
+    }
+    .banner5-content{
+        margin-top: -100px;
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        width: 100%;
+        height: 100vh;
+    }
+    .banner5 button{
+        font-size: 20px;
+        height: 80px;
+        width: 260px;
+    }
+    .banner5-img{
+        width: 100%;
+    }
+    .banner5-img img{
+        width: 100%;
+        height: 60vh;
+    }
+
+    /* banner6 */
+    .banner6{
+        flex-direction: column;
+        margin-top: 730px;
+    }
+    .banner6-header h3{
+        font-size: 40px;
+    }
+
+    .banner6-row1{
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .customers{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .customer1,.customer2{
+        width: 80%;
+    }
+    .banner6-row2{
+        width: 100%;
+    }
+    .banner6-row2 .customer3{
+        width: 55%;
+    }
+
+    /* form */
+
+    .main-form{
+        margin-top: 130px;
+        height: 100vh;
+    }
+    .form{
+        height: 90vh;
+    }
+
+    /* footer */
+
+    .main-footer{
+        height: 50vh;
+        flex-direction: column;
+    }
+    .left-footer{
+        width: 100%;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .right-footer{
+        gap: 50px;
+        width: 80%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: row;
+    }
+    .right-footer h1{
+        text-align: center;
+        font-size: 30px;
+    }
+    .social{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+}
